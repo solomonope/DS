@@ -2,6 +2,14 @@
 public class Driver {
 
 	public static void main(String [] args){
-		System.out.println("Hello world");
+		
+		String txt = "AABAACAADAABAAABAA";
+		String pat = "AABA";
+		
+		NaivePattern patt =  new  NaivePattern(pat,txt);
+		
+		ArrayList list = patt.Find();
+		
+		System.out.println(list.Get(2));
 	}
 }
