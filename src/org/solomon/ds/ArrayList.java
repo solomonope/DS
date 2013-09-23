@@ -1,5 +1,5 @@
 
-
+package org.solomon.ds;
 public class ArrayList {
 	
 	private int m_Length  = 0;
@@ -27,6 +27,10 @@ public class ArrayList {
 			return null;
 		
 		return this.m_Data[i];
+	}
+	
+	public int getLength(){
+		return this.m_Length;
 	}
 	private void grow(){
 		this.m_Size = 2 * this.m_Size;

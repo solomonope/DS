@@ -1,4 +1,4 @@
-
+package org.solomon.ds;
 public class NaivePattern {
 	
 	String m_Pattern = null;
