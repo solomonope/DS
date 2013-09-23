@@ -60,4 +60,30 @@ public class LinkedList<T> {
 		m_Tail =  node;
 		m_Count++;
 	}
+	
+	private void removeLast()
+	{
+		if(m_Count !=  0){
+			
+			if(m_Count == 1){
+				m_Head = null;
+				m_Tail =  null;
+				
+			}else{
+				
+				Node current = m_Head;
+				
+				while(current.getNext() != m_Tail){
+					
+					current.setNext(current.getNext());
+				}
+				
+				current.setNext(null);
+				m_Tail = current;
+				
+			}
+			m_Count--;
+		}
+		
+	}
 }
