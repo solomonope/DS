@@ -62,8 +62,9 @@ public class LinkedList<T> {
 	}
 	
 	private void removeLast()
+
 	{
-		if(m_Count !=  0){
+		if(m_Count !=  0) {
 			
 			if(m_Count == 1){
 				m_Head = null;
@@ -75,7 +76,7 @@ public class LinkedList<T> {
 				
 				while(current.getNext() != m_Tail){
 					
-					current.setNext(current.getNext());
+					current  = current.getNext();
 				}
 				
 				current.setNext(null);
@@ -86,4 +87,27 @@ public class LinkedList<T> {
 		}
 		
 	}
+
+	private void removeFirst(){
+		
+	if(m_Count != 0)
+	{
+		
+		if(m_Count == 1){
+			
+			m_Head = null;
+			m_Tail =  null;
+			
+		}else{
+			
+			Node Current = m_Head.getNext();
+			
+			m_Head = Current;
+		}
+		
+		m_Count--;
+	}
+	}
+
+	//private 
 }
