@@ -4,7 +4,7 @@ import org.solomon.ds.*;
 public class BubbleSortDriver {
 
 	public static void main(String [] a){
-	int [] sort = {7, 4, 5, 2, 9, 1};
+	int [] sort = {7,7, 4,4, 5, 2,2, 9, 1};
 	
 	BubbleSort<Object> st = new BubbleSort<Object>(sort);
 	
