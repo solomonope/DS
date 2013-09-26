@@ -57,6 +57,70 @@ public class QueueDriver {
 		System.out.println(qt.Dequeue());
 		System.out.println(qt.Dequeue());
 		System.out.println(qt.Dequeue());
+		
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		
+		
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		
+		
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		
+		
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		
+		
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
+		System.out.println(qt.Dequeue());
 	}
 
 }

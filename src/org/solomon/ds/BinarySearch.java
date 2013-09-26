@@ -3,11 +3,6 @@ public class BinarySearch {
 
 	private int [] m_Data;
 	
-	private int m_Begining;
-	
-	private int m_Middle;
-	
-	private int m_End;
 	
 	public BinarySearch(int [] Data){
 		 m_Data = Data;
@@ -31,6 +26,6 @@ public class BinarySearch {
 		
 		if (middlevalue > target) { return Search(target, begin, middle-1); }
 		if (middlevalue < target) { return Search(target, middle+1, end); }
-		  return middle; //found!
+		  return middle; 
 	}
 }
