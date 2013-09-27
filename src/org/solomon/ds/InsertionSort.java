@@ -20,6 +20,7 @@ public class InsertionSort {
 			int temp = m_Data[i];
 			
 			int j = i-1;
+			
 			for(; j >= 0 && m_Data[j] > temp; --j) {
 				m_Data[j+1] = m_Data[j];
 			    }
