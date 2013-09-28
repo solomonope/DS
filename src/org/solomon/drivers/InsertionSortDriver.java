@@ -10,7 +10,7 @@ public class InsertionSortDriver {
 		
 		InsertionSort st = new InsertionSort(sort);
 		
-		int [] returnsort = st.sort();
+		int [] returnsort = st.SortX();
 		
 		for(int i=0; i<returnsort.length-1;i++){
 			System.out.println(returnsort[i]);

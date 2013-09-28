@@ -30,7 +30,7 @@ public class InsertionSort {
 		return m_Data;
 	}
 
-	public int [] sort(){
+	public int [] SortX(){
 		 for(int i = 1; i< m_Data.length; i++){
 			 
 			 int temp = m_Data[i];
@@ -44,6 +44,6 @@ public class InsertionSort {
 			 }
 			 m_Data[holepos] = temp;
 		 }
-		return null;
+		return m_Data;
 	}
 }
