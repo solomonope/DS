@@ -15,7 +15,7 @@ public class SelectionSort {
 			
 			int _Temp = m_Data[i];
 			
-			int _Min = this.Min(i+1, m_Data.length);
+			int _Min = this.Min(i, m_Data.length);
 			
 			int intd = m_Data[_Min];
 			

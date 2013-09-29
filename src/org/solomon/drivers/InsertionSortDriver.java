@@ -6,7 +6,7 @@ public class InsertionSortDriver {
 
 	public static void main (String [] a){
 		
-		int [] sort = {7,7, 4,4, 5, 2,2, 9, 1};
+		int [] sort = {9,8,6,0,4,3,2,34,69,88,6,65,43,2,43,67,68,78,79,69,8,98,97,7};
 		
 		InsertionSort st = new InsertionSort(sort);
 		
