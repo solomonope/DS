@@ -1,7 +1,8 @@
 package org.solomon.ds;
 
-public class LinkedList<T> {
-
+public class LinkedList<T>  
+{
+;;;;;;;;
 	private Node m_Head;
 	
 	private Node m_Tail;
